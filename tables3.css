@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;     /* 横方向の中央寄せ */
+  align-items: flex-start;     /* 縦方向の位置（必要に応じて center に） */
+  min-height: 100vh;           /* 画面の高さに合わせる */
+}
+
+.table-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.size-guide {
+  border-collapse: collapse;
+  background-color: #e8f7fc;
+}
+
+.size-guide th {
+  background-color: #28a3c4;
+  color: white;
+  padding: 10px;
+}
+
+.size-guide td,
+.cat-guide td,
+.cat-guide th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cat-guide {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cat-guide th {
+  background-color: #e982a9;
+  color: white;
+}
+
+.cat-guide td img,
+.size-guide td img {
+  width: 50px;
+  height: auto;
+  margin: 2px;
+}
+
+.life-stage {
+  font-weight: bold;
+  color: #4077a1;
+}

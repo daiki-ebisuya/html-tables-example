@@ -1,1 +1,23 @@
 .DS_Store
+
+/* 特定の色を変える/*
+table thead th:nth-child(1) {
+    background-color: #0e150f;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+あってもなくてもいい
+<tfoot>
+        <tr>
+
+        <tr>
+          <th id="" scope="row">capstone</th>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </tfoot>
