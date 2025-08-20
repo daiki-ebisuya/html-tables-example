@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Tables</title>
+  <link rel="stylesheet" href="newtable2.css">
+</head>
+
+<body>
+  <h1 id="tableheading">Product Comparison Chart</h1>
+
+    <table aria-label="tableheading" class="table-striped">
+
+      <caption> Fig: Comparison of the features between the products</caption>
+      <thead>
+        <tr>
+          <th class="empty-cell"></th>
+          <th>product A</th>
+          <th>product B</th>
+          <th>product C</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th  scope="row">Durability</th>
+          <td headers="timeenglish">10/10 </td>
+          <td headers="timeenglish">5/10</td>
+          <td headers="roomenglish">7/10</td>
+    
+        </tr>
+        <tr>
+          <th scope="row">Design</th>
+          <td headers="timeenglish">3/10 </td>
+          <td headers="timeenglish">8/10</td>
+          <td headers="roomenglish">7/10</td>
+   
+        </tr>
+        <tr>
+          <th scope="row">Usability</th>
+          <td>7/10</td>
+          <td>10/10</td>
+          <td>5/10</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Price</th>
+          <td headers="timebiology">9/10</td>
+          <td>7/10</td>
+          <td>3/10</td>
+        </tr>
+
+
+
+      </tbody>
+    
+ 
+  </table>
+</body>
+
+</html>

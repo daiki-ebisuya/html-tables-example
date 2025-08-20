@@ -1,0 +1,71 @@
+/* universal style rules */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    -webkit-osx-font-smoothing: auto;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;     /* ← 見出しなど中央揃え */
+    padding: 40px; 
+}
+
+h1 {
+    padding: 30px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.table-wrapper {
+    margin: 10px 70px 70px;
+}
+
+
+table {
+ border-collapse: collapse;
+  border-spacing: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;       
+
+}  
+
+
+caption {
+    caption-side: bottom;
+    margin: 14px 0px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+table td,
+table th {
+    padding: 15px;
+    border: 1px solid lightgray;
+    text-align: center; /* セル内のテキストを中央揃え */    
+    font-size: 16px;
+}
+
+
+
+
+  .empty-cell {
+    border: none;
+    background-color: transparent; /* optional: 背景色も透明に */
+  }
+
+tr:nth-child(odd) { background-color: #28a3c4; }
+
+
+
+thead tr {
+    background-color: aqua;
+    
+}
