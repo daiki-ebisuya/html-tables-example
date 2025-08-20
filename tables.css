@@ -11,9 +11,11 @@ body {
     -webkit-osx-font-smoothing: auto;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center;     /* ← 見出しなど中央揃え */
+    padding: 40px; 
 }
 
-h2 {
+h1 {
     padding: 30px 0;
     text-align: center;
     letter-spacing: 1px;
@@ -26,17 +28,17 @@ h2 {
     box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
 }
 
+
 table {
+ border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}  
 
-    width: 100%;
-    max-width: 100%;
-    white-space: nowrap;
-
-    border-radius: 5px;
-    font-size: 16px;
-    border: none;
-    border-collapse: collapse;
-}
 
 caption {
     caption-side: bottom;
@@ -47,20 +49,16 @@ caption {
 
 table td,
 table th {
-    padding: 8pxpx;
-    text-align: center;
+    padding: 15px;
+    border: 1px solid lightgray;
+    text-align: center; /* セル内のテキストを中央揃え */    
+    font-size: 16px;
 }
 
 table thead th {
-    color: white;
+    color: rgb(29, 22, 22);
     background-color: aqua;
 }
 
-table thead th:nth-child(1) {
-    background-color: #0e150f;
-    color: white;
-}
 
-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
+
