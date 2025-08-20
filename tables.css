@@ -1,0 +1,66 @@
+/* universal style rules */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    -webkit-osx-font-smoothing: auto;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    padding: 30px 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.table-wrapper {
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+table {
+
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    margin: 14px 0px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+table td,
+table th {
+    padding: 8pxpx;
+    text-align: center;
+}
+
+table thead th {
+    color: white;
+    background-color: aqua;
+}
+
+table thead th:nth-child(1) {
+    background-color: #0e150f;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
